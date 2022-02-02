@@ -6,9 +6,9 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Alberto",
   middleName: "",
-  lastName: "Shoaib",
+  lastName: "De Saint Malo",
   message: " Passionate about changing the world with technology. ",
   icons: [
     {
@@ -43,11 +43,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/headshot.png"),
   imageSize: 375,
   message:
-    "My name is Alberto De Saint Malo. I am a senior at Florida State University and I love envisioning and bringing to life new projects. As a matter of fact, my coding career started out creating minigames with my friends in Minecraft with redstone circuits and console commands!",
-  resume: "https://drive.google.com/file/d/1TYElbcUdIzgLg3PFQZFki5JwvoNQMuSJ/view?usp=sharing",
+    "My name is Alberto De Saint Malo. I am a Panamanian student currently a senior at Florida State University and I love envisioning and bringing to life new projects. As a matter of fact, my coding career started out creating minigames with my friends in Minecraft with redstone circuits and console commands!",
+  resume: "https://drive.google.com/file/d/1TYElbcUdIzgLg3PFQZFki5JwvoNQMuSJ/view?usp=sharing", // CHANGE
 };
 
 // PROJECTS SECTION
@@ -59,8 +59,8 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "AtunBetun", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  reposLength: 0,
+  specificRepos: ["Titanic", "Backgammon"],
 };
 
 // Leadership SECTION
@@ -68,18 +68,24 @@ const leadership = {
   show: true,
   heading: "Leadership",
   message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+    'I have always been a believer in hard work and setting goals with my team members. \
+    During my time in Panama City, Panama I participated in the national sport "cayuco". In this sport teams of 4 paddle accros multiple"\
+    races on a year-long season culminating in the 3-day "Ocean 2 Ocean" race in which we cross the Panama Canal.\
+    With a great deal of sacrifice and over 50 hrs a week dedicated to the sport I managed to break records with my team Cayuco Chava and make\
+    life-long friends! Moreover, I also participated in the Chinese traditional sport "Dragon Boat" and classified for the France 2020 IDBF World Championship.',
   images: [
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../assets/img/cinta.jpg"), 
+      label: "Veracruz Race", 
+      paragraph: "" 
     },
+
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../assets/img/trophies_crop.jpg"), 
+      label: "Team Achievements", 
+      paragraph: "" 
     },
+
   ],
   imageSize: {
     width:"615",
@@ -92,14 +98,14 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
+    { name: "Python", value: 70 },
+    { name: "VBA", value: 65 },
     { name: "Data Structures", value: 85 },
     { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Jupyter Notebooks", value: 90 },
+    { name: "Java", value: 65 },
+    { name: "KNIME", value: 80 },
+    { name: "Linux", value: 70 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -127,21 +133,33 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Financial Forecasting Intern',// Here Add Company Name
+      companylogo: require('../assets/img/pg_resize.png'),
+      date: 'May - August 2021',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Financial Forecasting Intern',
+      companylogo: require('../assets/img/pg_resize.png'),
+      date: 'July – December 2020',
     },
+    {
+      role: 'Business Analyst',
+      companylogo: require('../assets/img/copa_resize.png'),
+      date: 'May – August 2019',
+    },
+    {
+      role: 'Lifeguard - Volleyball Official',
+      companylogo: require('../assets/img/campus_resize.png'),
+      date: 'January 2021 – Present',
+    },
+
+
   ]
 }
 
 // Blog SECTION
 // const blog = {
-//   show: false,
+//   show: true,
 // };
 
 export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };

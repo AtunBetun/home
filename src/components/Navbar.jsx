@@ -50,6 +50,7 @@ const Navigation = React.forwardRef((props, ref) => {
               <Link to={process.env.PUBLIC_URL + "/blog"}>Blog</Link>
             </Nav.Link>
           } */}
+
           {repos.show && (
             <Nav.Link
               className="nav-link lead"
@@ -58,6 +59,7 @@ const Navigation = React.forwardRef((props, ref) => {
               Projects
             </Nav.Link>
           )}
+
           <Nav.Link
             className="nav-link lead"
             href={about.resume}
@@ -66,6 +68,7 @@ const Navigation = React.forwardRef((props, ref) => {
           >
             Resume
           </Nav.Link>
+
           {about.show && (
             <Nav.Link
               className="nav-link lead"
@@ -74,6 +77,7 @@ const Navigation = React.forwardRef((props, ref) => {
               About
             </Nav.Link>
           )}
+
           {skills.show && (
             <Nav.Link
               className="nav-link lead"
@@ -82,6 +86,7 @@ const Navigation = React.forwardRef((props, ref) => {
               Skills
             </Nav.Link>
           )}
+
         </Nav>
       </Navbar.Collapse>
     </Navbar>
