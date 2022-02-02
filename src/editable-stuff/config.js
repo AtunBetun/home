@@ -46,7 +46,7 @@ const about = {
   imageLink: require("../editable-stuff/headshot.png"),
   imageSize: 375,
   message:
-    "My name is Alberto De Saint Malo. I am a Panamanian student currently a senior at Florida State University and I love envisioning and bringing to life new projects. As a matter of fact, my coding career started out creating minigames with my friends in Minecraft with redstone circuits and console commands!",
+    "My name is Alberto De Saint Malo. I am a Panamanian student currently a senior at Florida State University and I love envisioning and bringing to life new projects. I believe in hard work, dedication, and that a united team of people can achieve anything they propose themselves.",
   resume: "https://drive.google.com/file/d/1TYElbcUdIzgLg3PFQZFki5JwvoNQMuSJ/view?usp=sharing", // CHANGE
 };
 
@@ -124,8 +124,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently looking for internships for Summer 2022 in Software Engineering, Data Analytics, or anything tech related! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "beto7299@gmail.com",
 };
 
 const experiences = {

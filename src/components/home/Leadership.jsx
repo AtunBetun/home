@@ -25,6 +25,7 @@ const Leadership = ({ heading, message, img, imageSize }) => {
                       alt="First slide"
                       width={imageSize.width}
                       height={imageSize.height}
+                      resizeMode="cover"
                     />
                     <Carousel.Caption>
                       <h3>{value.label}</h3>
